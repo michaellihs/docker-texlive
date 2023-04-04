@@ -7,6 +7,10 @@ It is now based [`thomasweise/docker-pandoc`](http://hub.docker.com/r/thomasweis
 
 This is a Docker image containing a [`TeX Live`](http://en.wikipedia.org/wiki/TeX_Live) installation (version 2015.2016) with several support <a href="#user-content-3-scripts">scripts</a> for easing the compilation of [LaTeX](http://en.wikipedia.org/wiki/LaTeX) files to [PDF](http://en.wikipedia.org/wiki/Portable_Document_Format). The goal is to provide a unified environment for compiling LaTeX documents with predictable and reproducible behavior, while decreasing the effort needed to install and maintain the LaTeX installation. This image is designed to be especially suitable for a Chinese audience and comes with several pre-installed open Chinese fonts.
 
+## GitHub Actions
+
+Please check this [post on Stackoverflow](https://stackoverflow.com/questions/75926611/github-workflow-to-push-docker-image-to-ghcr-io/75926707) for the setup of the corresponding [GitHub Actions Workflow](.github/workflows/dockerimage.yml).
+
 ## 0. Installing Docker
 
 Docker can be installed following the guidelines below:
