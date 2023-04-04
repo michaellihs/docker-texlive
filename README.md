@@ -1,8 +1,6 @@
-# [thomasWeise/texlive](http://hub.docker.com/r/thomasweise/texlive/)
+# [ghcr.io/michaellihs/texlive](https://github.com/michaellihs/docker-texlive/pkgs/container/texlive)
 
-[![Image Layers and Size](http://imagelayers.io/badge/thomasweise/texlive:latest.svg)](http://imagelayers.io/?images=thomasweise%2Ftexlive:latest)
-[![Docker Pulls](http://img.shields.io/docker/pulls/thomasweise/texlive.svg)](http://hub.docker.com/r/thomasweise/texlive/)
-[![Docker Stars](http://img.shields.io/docker/stars/thomasweise/texlive.svg)](http://hub.docker.com/r/thomasweise/texlive/)
+> This is a fork of [thomasWeise/docker-texlive](https://github.com/thomasWeise/docker-texlive) due to an open pull request that doesn't allow for LaTex files to be compiled in the current version of the Docker image. The original image can be found here [thomasWeise/texlive](http://hub.docker.com/r/thomasweise/texlive/) - the patched image is available as [ghcr.io/michaellihs/texlive](https://github.com/michaellihs/docker-texlive/pkgs/container/texlive)
 
 **This is a major overhaul of the [`thomasWeise/texlive`](http://hub.docker.com/r/thomasweise/texlive/) image.
 It is now based [`thomasweise/docker-pandoc`](http://hub.docker.com/r/thomasweise/docker-pandoc/), which, in turn, is based on [`thomasweise/docker-texlive-full`](http://hub.docker.com/r/thomasweise/docker-texlive-full/). This means it got bigger, but it now features the newest release of `pandoc`, [`TeX Live`](http://en.wikipedia.org/wiki/TeX_Live), and includes more pandoc filters than before. For the original version of the container, refer to tag [1.0.0](http://github.com/thomasWeise/docker-texlive/releases/tag/1.0.0).**
