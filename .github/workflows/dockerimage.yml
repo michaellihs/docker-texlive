@@ -31,4 +31,4 @@ jobs:
         with:
           context: image/
           push: true
-          tags: ghcr.io/michaellihs/tex-live:latest
+          tags: ghcr.io/michaellihs/texlive:latest
